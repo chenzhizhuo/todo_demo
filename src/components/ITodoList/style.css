@@ -1,0 +1,43 @@
+.list {
+  background-color: #fff;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40vh;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px #828080;
+  display: flex;
+  flex-direction: column;
+}
+
+.list_scroll {
+  max-height: calc(40vh - 40px);
+  overflow-y: auto;
+  width: 100%;
+}
+
+.item {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer {
+  color: #999;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 16px;
+}
+.footer span {
+  display: inline;
+  cursor: pointer;
+}

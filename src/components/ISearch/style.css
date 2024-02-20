@@ -1,0 +1,21 @@
+.search {
+  width: 100%;
+  margin-top: 40px;
+}
+.search input {
+  height: 40px;
+  width: 100%;
+  line-height: 36px;
+  border-radius: 8px;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  padding: 0 16px;
+  color: #999;
+  font-size: 14px;
+}
+.search input:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 6px #828080;
+}

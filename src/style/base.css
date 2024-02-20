@@ -1,0 +1,14 @@
+.bscroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom right, #c8c8c9 0%, #9e9c9c 100%);
+  border-radius: 5px !important;
+}
+
+.bscroll::-webkit-scrollbar-track {
+  background-color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 0 7px;
+}
+
+.bscroll::-webkit-scrollbar {
+  width: 5px;
+}
